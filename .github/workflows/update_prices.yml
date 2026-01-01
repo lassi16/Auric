@@ -2,7 +2,7 @@ name: Update Stock Prices
 
 on:
   schedule:
-    - cron: "* * * * *"   # runs every minute
+    - cron: "*/10 * * * *"   # runs every 10 minute
   workflow_dispatch:        # allows manual run
 
 jobs:
